@@ -1,0 +1,3 @@
+node 'web' {
+  class { 'base': }
+}

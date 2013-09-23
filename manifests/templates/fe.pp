@@ -1,0 +1,3 @@
+node 'fe' {
+  include base
+}
