@@ -2,7 +2,7 @@
 :backends:
   - "json"
 :json:
-  :datadir: "/opt/otb-puppet/hieradata"
+  :datadir: "/opt/puppet/hieradata"
 :hierarchy:
   - "nodes/%{::fqdn}"
   - "templates/%{node_type}"
