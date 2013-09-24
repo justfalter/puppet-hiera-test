@@ -1,3 +1,4 @@
 node 'fe' {
-  include base
+  class { 'base': }
+  class { 'motd': message => 'Hello from fe' }
 }
