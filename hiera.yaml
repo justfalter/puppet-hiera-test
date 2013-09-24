@@ -1,0 +1,7 @@
+---
+:backends:
+  - "json"
+:json:
+  :datadir: "/opt/otb-puppet/hieradata"
+:hierarchy:
+  - "common"
