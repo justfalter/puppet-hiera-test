@@ -5,5 +5,5 @@
   :datadir: "/opt/puppet/hieradata"
 :hierarchy:
   - "nodes/%{::fqdn}"
-  - "templates/%{node_type}"
+  - "templates/%{template_type}"
   - "common"

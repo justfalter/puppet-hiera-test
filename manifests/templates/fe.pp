@@ -1,5 +1,5 @@
-node 'fe' {
-  $node_type = 'fe'
+node 'fe_template' {
+  $template_type = 'fe'
 
   class { 'base': }
   class { 'motd': }

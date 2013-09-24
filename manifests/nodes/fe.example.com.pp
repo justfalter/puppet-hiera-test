@@ -1,2 +1,2 @@
-node 'fe.example.com' inherits 'fe' {
+node 'fe.example.com' inherits 'fe_template' {
 }
