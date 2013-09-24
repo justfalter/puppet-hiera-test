@@ -1,5 +1,5 @@
-# import "./templates/*.pp"
-# import "./nodes/*.pp"
+import "templates/*.pp"
+import "nodes/*.pp"
 
 # The filebucket option allows for file backups to the server
 # filebucket { main: server => 'my.server.name' }
